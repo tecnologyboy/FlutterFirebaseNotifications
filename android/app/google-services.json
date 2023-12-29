@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "43714405689",
+    "project_id": "notifications-583f9",
+    "storage_bucket": "notifications-583f9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:43714405689:android:9a7a0900f0f5247cdbb4e8",
+        "android_client_info": {
+          "package_name": "com.medasoft.notifications"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBylOzfqGUrUIFENTBh3r2JuA0DbA2dD8w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
