@@ -1,7 +1,16 @@
 import 'package:flutter/material.dart';
+
+import 'package:notifications/services/push_notifications_services.dart';
 import 'package:notifications/screens/screens.dart';
 
-void main() => runApp(const MyApp());
+void main() async {
+  WidgetsFlutterBinding
+      .ensureInitialized(); // Esta linea es para que la siguiente no de error por que aun no se encuentran creado los widgets
+
+  await PushNotificationService.initializeApp();
+
+  runApp(const MyApp());
+}
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
